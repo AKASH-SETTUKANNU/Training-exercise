@@ -51,7 +51,7 @@ document.addEventListener('DOMContentLoaded',()=>{
             event.target.parentElement.remove();
         }
     }
-    taskInput.addEventListener('click',()=>{
+    taskInput.addEventListener('click',(event)=>{
         if(event.key==='Enter')
         {
             addTask();
